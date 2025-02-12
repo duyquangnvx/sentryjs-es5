@@ -46,3 +46,7 @@ Sentry.init({
   tracesSampleRate: 1.0,
 });
 ```
+
+## How to upgrade Sentry SDK
+- Download Sentry CDN Bundle from https://browser.sentry-cdn.com/<version>/bundle.js. See https://docs.sentry.io/platforms/javascript/install/loader/#cdn for more information
+- Replace your downloaded bundle with src/sentry/bundle.js
