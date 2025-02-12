@@ -47,6 +47,14 @@ Sentry.init({
 });
 ```
 
-## How to upgrade Sentry SDK
-- Download Sentry CDN Bundle from https://browser.sentry-cdn.com/<version>/bundle.js. See https://docs.sentry.io/platforms/javascript/install/loader/#cdn for more information
-- Replace your downloaded bundle with src/sentry/bundle.js
+## How to Upgrade the Sentry SDK
+- Download the the Sentry CDN Bundle from the following URL (replace [version] with your desired version):
+    ```
+    https://browser.sentry-cdn.com/[version]/bundle.js
+    ```
+    For more information, see the [official Sentry documentation](https://docs.sentry.io/platforms/javascript/install/loader/#cdn).
+
+- Replace your downloaded bundle with the file located at:
+    ```
+    src/sentry/bundle.js
+    ```
