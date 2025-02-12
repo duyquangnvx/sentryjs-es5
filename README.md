@@ -35,7 +35,7 @@ npm run build
 
 The final output file will be located in the dist/sentry.js.
 
-## Usage in Cocos2d-JS
+## Usage in Project
 Once the build is complete, you can include the generated ES5 bundle in your project.
 This makes the Sentry Javascript ES5 library available globally as Sentry. You can initialize Sentry like this:
 
