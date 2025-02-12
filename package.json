@@ -1,0 +1,23 @@
+{
+  "name": "sentry-javascript",
+  "version": "1.0.0",
+  "description": "Build sentry-javascript ES5",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tsc --build ./build/tsconfig.json --watch",
+    "build": "npx tsc --build ./build/tsconfig.json && npx terser ./build/generated.js -o ./dist/sentry.js --compress --mangle --wrap libsentryjs"
+  },
+  "keywords": [
+    "sentry",
+    "sentry-javascript",
+    "sentry-es5"
+  ],
+  "author": "QuangVD2",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "terser": "^5.38.1"
+  }
+}

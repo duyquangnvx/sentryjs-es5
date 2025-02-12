@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"strict": false,
+		"outFile": "generated.js",
+		"outDir": "dist",
+		"noImplicitAny": true,
+		"noEmitHelpers": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"strictBindCallApply": true,
+		"noImplicitThis": true,
+		"noImplicitReturns": true,
+		"alwaysStrict": false,
+		"esModuleInterop": true,
+		"declaration": false,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"lib": ["ES2015", "dom"],
+		"target": "ES5",
+		"module": "System",
+		"moduleResolution": "node",
+		"allowJs": true,
+		"removeComments": true,
+	},
+	"include": [
+		"../src/**/*",
+	]
+}
